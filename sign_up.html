@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Login page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home2.css" /> 
+  </head>
+  <body>
+    <div class="name">
+      <h1>Christmas Market</h1>
+    </div>
+    <form name="registration" method="post" action="sign_up.php">
+        <div class="imgcontainer">
+          <img src="avatar.jpg" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname">
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$" title="1 digit, 1 lower case, 1 upper case, 1 special symbol and at least 6 from the mentioned characters ">
+        
+          <label for="name"><b>Full Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name">
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Your Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please add valid email">
+
+          <label for="goods"><b>Type of Goods</b></label>
+          <input type="text" placeholder="Enter Goods" name="goods">
+
+          <label for="price"><b>Average Price</b></label>
+          <input type="number" placeholder="Enter Price" name="price">
+
+          <button type="submit" name='button' onclick ="reg_form_click()">Sign up</button>
+          <p><a href="map.html" >Map </a></p>
+        </div>
+      </form>
+      <script src="JavaScript.js"></script>
+  </body>
+  </html>

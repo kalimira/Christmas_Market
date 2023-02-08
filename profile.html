@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="profile.css" /> 
+<title>Profile page</title>
+</head>
+<body>
+<div class="card">
+  <img src="avatar.jpg" alt="avatar" style="width:100%">
+  <button id="reservations" onClick="loadDoc2(this.id)"> See your valid reservations</button><br><br>
+  <form name="profile" method="post" action="reservations.php">
+  
+    <label for="house_reserve"><b>House</b></label>
+    <input type="number" placeholder="Reserve House" name="house_reserve"><br><br>
+
+    <label for="house_delete"><b>House</b></label>
+    <input type="number" placeholder="Delete Reservation" name="house_delete"><br><br>
+    <button type="submit">Go</button><br><br>
+  </form>
+<p1><a href="map.html" >Map</a></p1>
+<form method="post" action="logout.php">
+  <button type="submit">Log out</button><br>
+</form>	
+</div>
+<script src="JavaScript.js"></script>
+</body>
+</html>

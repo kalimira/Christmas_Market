@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Login page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home2.css" /> 
+  </head>
+  <body>
+    <div class="name">
+      <h1>Christmas Market</h1>
+    </div>
+    <form name="login" method="post" action="login.php">
+        <div class="imgcontainer">
+          <img src="avatar.jpg" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname">
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw">
+
+          <button type="submit" onclick ="login_form_click()">Login</button>
+          <p><a href="sign_up.html" >Sign up!</a></p>
+          <p><a href="map.html" >Map </a></p>
+        </div>
+      </form>
+      <script src="JavaScript.js"></script>
+  </body>
+  </html>

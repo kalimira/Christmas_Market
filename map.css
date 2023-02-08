@@ -1,0 +1,36 @@
+body{
+    background-image: url("map.jpg");
+	background-blend-mode: lighten;
+}
+#first_row{
+	background-color: rgb(255, 255, 153);
+}
+#second_row{
+	background-color: rgb(13, 223, 170);
+}
+#third_row{
+	background-color: rgb(255, 212, 72);
+}
+#fourth_row{
+	background-color: rgb(116, 201, 116);
+}
+table{
+	border: 5px solid blue;
+	border-radius: 10px;
+	margin-left: 150px;
+	margin-top: 115px;
+}
+button {
+  background-color: rgb(85, 85, 85);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #FF6666;
+}
+img{
+	width: 100px;
+}
+
+

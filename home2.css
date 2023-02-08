@@ -1,0 +1,72 @@
+body
+	{
+		background-image: url('christmas1.jpg');
+		background-blend-mode: lighten;
+	}
+.name
+{
+  margin-top: 25px;
+  margin-left: 34%;
+  border: 5px solid #0080FF;
+  background-color: #CCE5FF;
+  height: 12%;
+  width: 30%;
+  font-size: 120%;
+  font-style: italic;
+  text-align: center;
+}
+form {
+  background-color: rgba(241, 0, 0, 0.945);
+  border: 3px solid #f1f1f1;
+  width: 30%;
+  left: 36%;
+  position: relative;
+  top: 15%;
+  width: 400px;
+  opacity: 90% ;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #58e4b0;
+  color: black;
+  padding: 7px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 64%;
+  font-size: 20px;
+}
+button:hover, a:hover {
+  opacity: 0.8;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+img.avatar {
+  width: 30%;
+  border-radius: 60%;
+  opacity: 100%;
+}
+.container {
+    padding: 10px;
+}
+a{
+  text-decoration:none;
+  color:white;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  background-color: #58e4b0;
+  text-align: center;
+  width: 60%;
+  font-size: 20px;
+}
+
